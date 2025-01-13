@@ -5,7 +5,7 @@ import sys
 pygame.init()
 
 # Set up the display
-WIDTH, HEIGHT = 720, 720
+WIDTH, HEIGHT = 800, 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
 pygame.display.set_caption("Simple Map with Movable Cursor")
 
